@@ -1,6 +1,6 @@
 # 하이미야 배경 BetterDiscord 테마
 
-`haimiya-discord-theme.theme.css`는 하이미야 배경과 남청색 패널, 시안 강조색을 사용하는 독립 BetterDiscord 테마입니다. 이 저장소에는 아카네 리제 테마 파일을 포함하지 않습니다.
+이 저장소에는 두 가지 하이미야 배경 테마가 있습니다. `haimiya-discord-theme.theme.css`는 남청색 패널과 시안 강조색을 사용하는 독립 테마이고, `Haimiya-mio-theme.theme.css`는 차콜·실버 멘션 스타일을 포함한 Haimiya Mio 테마입니다.
 
 ## 이미지 넣기
 
@@ -11,7 +11,7 @@
 ## 설치
 
 1. BetterDiscord의 테마 폴더를 여세요: Discord 설정 > BetterDiscord > Themes.
-2. `haimiya-discord-theme.theme.css`를 테마 폴더에 복사하세요.
-3. Discord를 재시작한 뒤 Themes에서 **Haimiya Senpai: Scary & Cute**를 활성화하세요.
+2. 사용할 CSS 파일을 테마 폴더에 복사하세요.
+3. Discord를 재시작한 뒤 Themes에서 **Haimiya Senpai: Scary & Cute** 또는 **Haimiya Mio Theme** 중 하나를 활성화하세요.
 
 이미지가 보이지 않으면 CSS 안의 파일 경로와 이미지 파일명을 확인하세요. 오버레이 농도와 패널 투명도는 테마 파일 상단의 `--haimiya-overlay`와 `--haimiya-panel` 값으로 조정할 수 있습니다.
