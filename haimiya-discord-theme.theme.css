@@ -1,0 +1,57 @@
+/**
+ * @name Haimiya Senpai: Scary & Cute
+ * @description A dark, rose-red BetterDiscord wallpaper theme for Haimiya.
+ * @author hiwoo
+ * @version 1.0.0
+ */
+
+:root {
+  --haimiya-wallpaper: url("./assets/images/haimiya-background.jpg");
+  --haimiya-overlay: rgba(13, 10, 15, 0.46);
+  --haimiya-panel: rgba(22, 16, 21, 0.78);
+  --haimiya-accent: #d85c69;
+}
+
+html,
+body,
+#app-mount {
+  min-height: 100%;
+  background: transparent !important;
+}
+
+body {
+  background-color: #100d12 !important;
+}
+
+#app-mount {
+  position: relative;
+  isolation: isolate;
+}
+
+#app-mount::before {
+  position: fixed;
+  z-index: -1;
+  inset: 0;
+  content: "";
+  background-image: linear-gradient(var(--haimiya-overlay), var(--haimiya-overlay)), var(--haimiya-wallpaper);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  pointer-events: none;
+}
+
+#app-mount [class*="sidebar_"],
+#app-mount [class*="chat_"],
+#app-mount [class*="members_"],
+#app-mount [class*="panels_"] {
+  background-color: var(--haimiya-panel) !important;
+}
+
+#app-mount [class*="messageContent_"] {
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+#app-mount [class*="mention"] {
+  color: #ffe0e3;
+  background-color: rgba(216, 92, 105, 0.32);
+}
