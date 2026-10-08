@@ -920,7 +920,7 @@ html body [class*="statusConnected"] {
 
 /* Akane Rize preset clone: only the wallpaper differs. */
 :root {
-  --ars-bg-image: url("https://raw.githubusercontent.com/moonravit23/haimiya-discord-theme/main/assets/images/haimiya-background.jpg");
+  --ars-bg-image: url("https://raw.githubusercontent.com/moonravit23/haimiya-discord-theme/main/assets/images/haimiya-background.jpg?v=2");
 }
 
 /* Round action buttons softly */
