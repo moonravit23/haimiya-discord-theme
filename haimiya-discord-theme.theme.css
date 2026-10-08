@@ -6,7 +6,7 @@
  */
 
 :root {
-  --haimiya-wallpaper: url("./assets/images/haimiya-background.jpg");
+  --haimiya-wallpaper: url("https://raw.githubusercontent.com/moonravit23/haimiya-discord-theme/main/assets/images/haimiya-background.jpg");
   --haimiya-overlay: rgba(8, 14, 25, 0.32);
   --haimiya-panel: rgba(13, 22, 35, 0.82);
   --haimiya-accent: #76c8f0;
