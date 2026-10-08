@@ -1,6 +1,12 @@
-# 하이미야 선배는 무섭고 귀엽다
+# 하이미야 배경 BetterDiscord 테마
 
-하이미야를 배경으로 사용하는 BetterDiscord 테마입니다. 남청색 오버레이와 반투명 패널, 차가운 시안 포인트를 적용해 배경을 살리면서 채팅 가독성을 유지합니다.
+## 아카네 리제 프리셋 복사본
+
+`AkaneRizeHaimiya.theme.css`는 설치된 Akane Rize Starlight 테마를 복사한 파일입니다. 기존 색상, 레이아웃, 유리 효과는 유지하고 배경 이미지만 하이미야 이미지로 바꿨습니다. 이 버전을 사용하려면 BetterDiscord Themes 폴더에 이 CSS 파일을 복사하고 **Akane Rize Haimiya**만 활성화하세요. 원본 Akane Rize와 다른 테마는 끄는 것을 권장합니다.
+
+## 독립 하이미야 테마
+
+`haimiya-discord-theme.theme.css`는 남청색 패널과 시안 포인트를 사용하는 별도 스타일입니다. 아카네 프리셋 복사본과 동시에 활성화하지 마세요.
 
 ## 이미지 넣기
 
@@ -11,7 +17,7 @@
 ## 설치
 
 1. BetterDiscord의 테마 폴더를 여세요: Discord 설정 > BetterDiscord > Themes.
-2. `haimiya-discord-theme.theme.css`를 테마 폴더에 복사하세요.
-3. Discord를 재시작하고 설정의 Themes에서 **Haimiya Senpai: Scary & Cute**를 활성화하세요.
+2. 사용할 테마 CSS 파일을 테마 폴더에 복사하세요.
+3. Discord를 재시작한 뒤 설정의 Themes에서 해당 테마 하나만 활성화하세요.
 
 이미지가 보이지 않으면 CSS 안의 파일 경로와 이미지 파일명을 확인하세요. 오버레이 농도와 패널 투명도는 테마 파일 상단의 `--haimiya-overlay`와 `--haimiya-panel` 값으로 조정할 수 있습니다.
