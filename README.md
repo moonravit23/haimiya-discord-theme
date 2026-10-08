@@ -2,7 +2,7 @@
 
 ## 아카네 리제 프리셋 복사본
 
-`AkaneRizeHaimiya.theme.css`는 설치된 Akane Rize Starlight 테마를 복사한 파일입니다. 기존 색상, 레이아웃, 유리 효과는 유지하고 배경 이미지만 하이미야 이미지로 바꿨습니다. 이 버전을 사용하려면 BetterDiscord Themes 폴더에 이 CSS 파일을 복사하고 **Akane Rize Haimiya**만 활성화하세요. 원본 Akane Rize와 다른 테마는 끄는 것을 권장합니다.
+`AkaneRizeHaimiya.theme.css`는 설치된 Akane Rize Starlight 테마의 레이아웃과 유리 효과를 바탕으로, 하이미야 이미지와 어울리는 남청·슬레이트 UI 및 아이스 블루 강조색을 적용한 복사본입니다. BetterDiscord Themes 폴더에 CSS 파일을 복사하고 **Haimiya Wallpaper**만 활성화하세요. 원본 Akane Rize와 다른 테마는 끄는 것을 권장합니다.
 
 ## 독립 하이미야 테마
 
